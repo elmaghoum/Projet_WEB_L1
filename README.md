@@ -39,16 +39,16 @@ Le site est conçu en HTML5, CSS et JavaScript
 Image et video sont ici utilisés dans un cadre pédagogique et dans une but non lucratif.
 
 Sommaire image:
--carre: https://www.heh.be/teknika/learning/TQ2PIG1/design/formesgeometriques.png
--Sudoku: https://lh3.googleusercontent.com/Et4D8F8N7IjUCVXNwtQVBJaiclB7vA7xdEaZcvkj1M_RoNH2msC6KOGXzpqGU49Q-KTksQ=s85
--Contact: https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Diagonal-Sudoku-by-Skratt.svg/220px-Diagonal-Sudoku-by-Skratt.svg.png
--Quizz: https://image.freepik.com/vecteurs-libre/quiz-dans-style-bande-dessinee-pop-art_175838-505.jpg
+- carre: https://www.heh.be/teknika/learning/TQ2PIG1/design/formesgeometriques.png
+- Sudoku: https://lh3.googleusercontent.com/Et4D8F8N7IjUCVXNwtQVBJaiclB7vA7xdEaZcvkj1M_RoNH2msC6KOGXzpqGU49Q-KTksQ=s85
+- Contact: https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Diagonal-Sudoku-by-Skratt.svg/220px-Diagonal-Sudoku-by-Skratt.svg.png
+- Quizz: https://image.freepik.com/vecteurs-libre/quiz-dans-style-bande-dessinee-pop-art_175838-505.jpg
 
 
 Lien des images Quiz:
--1er : https://i.pinimg.com/originals/81/89/5d/81895d95dcf1cd8424304f529cded3ba.png
--2nd :  https://i.pinimg.com/originals/fc/ec/2b/fcec2b6b4388c697454ad99946fbd539.jpg
--3eme : https://i.pinimg.com/originals/9b/42/a5/9b42a5f2ddebe916d4922a2cf5758b4b.jpg
+- 1er : https://i.pinimg.com/originals/81/89/5d/81895d95dcf1cd8424304f529cded3ba.png
+- 2nd :  https://i.pinimg.com/originals/fc/ec/2b/fcec2b6b4388c697454ad99946fbd539.jpg
+- 3eme : https://i.pinimg.com/originals/9b/42/a5/9b42a5f2ddebe916d4922a2cf5758b4b.jpg
 
 - carré image: https://www.shorthand.at/uploads/1587982943.8268.jpg
 - carré video soluce: https://youtu.be/NC5RIXhBjy0
