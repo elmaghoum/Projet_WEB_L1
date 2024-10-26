@@ -10,8 +10,6 @@ Le site est conçu en HTML5, CSS et JavaScript
 - (x)-HTML
 - CSS3
 - JavaScript
-- Canvas API pour le dessin géométrique
-- GitHub pour le versionnage du code
 
 ## Pages du Site
 
@@ -36,7 +34,7 @@ Le site est conçu en HTML5, CSS et JavaScript
 - Remplissez le formulaire de contact sur la page `contact.html` et cliquez sur "Soumettre" pour envoyer vos informations.
 - 
 ## Bibliographie
-Les images et video sont, ici, utilisés dans un cadre pédagogique et dans une but non lucratif.
+Les images et video sont, ici, utilisés dans un cadre pédagogique et dans un but non lucratif.
 
 Sommaire image:
 - carre: https://www.heh.be/teknika/learning/TQ2PIG1/design/formesgeometriques.png
@@ -52,6 +50,7 @@ Lien des images Quiz:
 
 - carré image: https://www.shorthand.at/uploads/1587982943.8268.jpg
 - carré video soluce: https://youtu.be/NC5RIXhBjy0
+
 
 ## AUTEUR
 EL MAGHOUM Fayçal
