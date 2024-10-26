@@ -28,11 +28,12 @@ Le site est conçu en HTML5, CSS et JavaScript
 - **Accessibilité** : Compatible avec les navigateurs Firefox, Opera et Google Chrome.
 
 ## Utilisation
-
+- Télécharger l'integralité du répertoire "Projet_WEB_L1".
 - Lancez le fichier `index.html` pour accéder à la page d'accueil.
 - Cliquez sur les images cliquable dans le sommaire (index.html) pour naviguer vers les différents jeux.
-- Remplissez le formulaire de contact sur la page `contact.html` et cliquez sur "Soumettre" pour envoyer vos informations.
-- 
+- (Amusez-vous bien !!)
+
+
 ## Bibliographie
 Les images et video sont, ici, utilisés dans un cadre pédagogique et dans un but non lucratif.
 
