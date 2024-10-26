@@ -1,8 +1,9 @@
-# Projet Multi-Jeux - Module Info1B - 2020-2021
+# Projet Multi-Jeux - Module Info1B - Université de Bourgogne - 2020-2021
 
 ## Description
+Projet de fin de module, de Licence 1 Informatique, pour le module Info1B.
 
-Ce projet consiste en la création de plusieurs page web qui propose plusieurs mini-jeux (notamment Sudoku, énigmes, quiz et autres). 
+Ce projet consiste en la création de plusieurs page web qui propose plusieurs mini-jeux (notamment Sudoku, énigmes, quiz et autres).
 Le site est conçu en HTML5, CSS et JavaScript
 
 ## Technologies Utilisées
