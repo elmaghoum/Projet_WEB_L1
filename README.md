@@ -36,7 +36,7 @@ Le site est conçu en HTML5, CSS et JavaScript
 - Remplissez le formulaire de contact sur la page `contact.html` et cliquez sur "Soumettre" pour envoyer vos informations.
 - 
 ## Bibliographie
-Image et video sont ici utilisés dans un cadre pédagogique et dans une but non lucratif.
+Les images et video sont, ici, utilisés dans un cadre pédagogique et dans une but non lucratif.
 
 Sommaire image:
 - carre: https://www.heh.be/teknika/learning/TQ2PIG1/design/formesgeometriques.png
