@@ -1,0 +1,72 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title> Quiz </title>
+	<link rel="stylesheet" type="text/css" href="../CSS/stylequiz.css" />
+</head>
+<body>
+	<div id="previous">
+		<!-- Image cliquable de retour au sommaire -->
+		<a href="index.html" title="index">
+			<img src="../images/previous.png" class="" alt="" style="height:50px; width:50px;">
+		</a>
+		<h1> Voici 3 quiz de Math&eacute;matiques! Bonne chance ! </h1>
+	</div>
+	<hr />
+
+	<form method="post" action="mailto:xx@123.fr" enctype="text/plain" class="f1">
+		<!-- Formulaire avec 3 quiz  -->
+		<img src="../images/calcul1.png" class="" alt="">																<!-- Insersion de l'image en position relative,  du 1er quiz    -->
+		<fieldset>
+			<!-- Bouton radio, l'utilisateur doit choisir entre une des 3 proposition  -->
+			<legend>Choisiser votre reponse parmi ceux si-dessous</legend>
+			<p>
+				<input type=radio id=1choix1 name=choix1 value=10> 10
+				<br />
+				<input type=radio id=1choix2 name=choix1 value=14> 14
+				<br />
+				<input type=radio id=1choix3 name=choix1 value=24> 24
+				<br />
+				<input type="button" value="Valider" onclick="validcalcul1();" /> <br />						      <!-- Bouton qui sert à valider la 1er reponse et qui renvoie à la fonction validcalcul1() du JS  -->
+			</p>
+			<div id="phrase"></div>																					   <!-- Mise en place d'une zone de texte pour afficher la reponse avec le JS  -->
+		</fieldset>
+		<br />
+
+		<!-- Idem pour les 2 autres fieldset   -->
+
+		<img src="../images/calcul2.jpg" class="" alt="" style="width:500px ; height:500px">
+		<fieldset>
+			<legend>Choisiser votre reponse parmi ceux si-dessous</legend>
+			<p>
+				<input type=radio id=2choix1 name=choix2 value=29> 29
+				<br />
+				<input type=radio id=2choix2 name=choix2 value=35> 35
+				<br />
+				<input type=radio id=2choix3 name=choix2 value=55> 55
+				<br />
+				<input type="button" value="Valider" onclick="validcalcul2();" /> <br />
+			</p>
+			<div id="phrase2"></div>
+		</fieldset>
+		<br />
+
+		<img src="../images/calcul3.jpg" class="" alt="" style="width:650px ; height:650px">
+		<fieldset>
+			<legend>Choisiser votre reponse parmi ceux si-dessous</legend>
+			<div>
+				<input type=radio id=3choix1 name=choix3 value=15> 15
+				<br />
+				<input type=radio id=3choix2 name=choix3 value=14> 14
+				<br />
+				<input type=radio id=3choix3 name=choix3 value=18> 18
+				<br />
+				<input type="button" value="Valider" onclick="validcalcul3();" /> <br />
+				<div id="phrase3"></div>
+			</div>
+		</fieldset>
+	</form>
+	<script type="text/javascript" src="../JS/quiz.js"></script>
+</body>
+</html>

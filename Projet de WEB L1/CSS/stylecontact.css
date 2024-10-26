@@ -1,0 +1,35 @@
+body {
+    font-size: 0.7cm;
+    color: #8B0000;
+    background-color: #d3d3d3;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+#previous {
+    text-align: left;
+}
+
+#img {
+    border:double blue 10px;
+    text-align: right;
+    float:right;
+    margin-right:50px;
+    padding-left:20px;
+}
+
+form {
+    margin-left: 40px;
+}
+
+#logoo {
+    text-align: right;
+    margin-right: 50px;
+}
+canvas {
+    border: 7px double #8B0000;
+    background-color: #808080;
+}

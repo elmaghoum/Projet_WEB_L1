@@ -1,0 +1,53 @@
+body {
+    font-size: 1cm;
+    color: #8B0000;
+    background-color: #d3d3d3;
+    text-align: center;
+}
+
+
+#tableau {
+    border: double red 10px;
+    border-spacing: 0cm;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+}
+
+#tableau2 {
+    border: double green 10px;
+    border-spacing: 0cm;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#previous {
+    text-align: left;
+}
+
+.t{
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    font-size: 1cm;
+    color: black;
+}
+
+
+fieldset {
+    text-align: center;
+    margin: auto;
+}
+label {
+    font-size: 0.6cm;
+    color: black;
+}
+
+#result {
+    text-align: center;
+}

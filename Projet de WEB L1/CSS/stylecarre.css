@@ -1,0 +1,21 @@
+body {
+    font-size: 0.7cm;
+    color: #8B0000;
+    background-color: #d3d3d3;
+    text-align: center;
+}
+
+fieldset{
+    border:solid black 2px;
+}
+
+h1 {
+    text-align: center;
+}
+#previous {
+    text-align: left;
+}
+#canvas1 {
+    border: 7px double white;
+    background-color: black;
+}

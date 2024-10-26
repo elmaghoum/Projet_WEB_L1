@@ -1,0 +1,24 @@
+body {
+    font-size: 0.7cm;
+    color: #8B0000;
+    background-color: #d3d3d3;
+    text-align: center;
+}
+
+
+fieldset{
+    border:solid black 1px;
+    margin:auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#previous {
+    text-align: left;
+}
+
+img{
+    position:relative;
+}

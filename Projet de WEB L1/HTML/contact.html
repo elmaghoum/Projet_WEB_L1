@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title> Contact </title>
+	<link rel="stylesheet" type="text/css" href="../CSS/stylecontact.css" />
+</head>
+<body>
+
+	<div id="previous">
+		<!-- Image cliquable de retour au sommaire -->
+		<a href="index.html" title="index">
+			<img src="../images/previous.png" class="" alt="" style="height:50px; width:50px;">
+		</a>
+		<h1> Nous contacter </h1>
+	</div>
+
+	<hr />
+	<br />
+
+	<div id="img">
+		<!-- Rectangle dans lequel se trouve 4 images cliquables, qui nous redirectionnent sur 4 URL national/internationnal -->
+		<p>
+			Nos r&eacute;seaux : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br />	<br />
+			<a href="https://www.youtube.com/" title="Youtube">
+				<img src="../images/youtube.png" class="" alt="" style="height:110px; width:170px;">
+			</a>&nbsp;
+			<a href="https://fr-fr.facebook.com/" title="Facebook">
+				<img src="../images/facebook.png" class="" alt="" style="height:110px; width:110px;">
+			</a>&nbsp; &nbsp; &nbsp; &nbsp;
+		</p>
+		<p>
+			<a href="https://twitter.com/" title="Twitter">
+				<img src="../images/twitter.jpg" class="" alt="" style="height:110px; width:110px;">
+			</a>&nbsp; &nbsp; &nbsp;
+			<a href="https://www.instagram.com/" title="Instagram">
+				<img src="../images/instagram.jpg" class="" alt="" style="height:110px; width:110px;">
+			</a>&nbsp; &nbsp; &nbsp; &nbsp;
+		</p>
+	</div>
+
+	<form method="post" action="mailto:xx@123.fr" enctype="text/plain" class="f1">
+		<!-- Formulaire à remplir par l'utilisateur, avec 3 input texte -->
+		<span id="nomdefamille">
+			<label for="nom"> Votre Nom :</label>
+			<input type="text" size="30" id="nom" name="nom" />
+		</span>
+		<span id="preno">
+			<label for="prenom"> Votre Pr&eacute;nom :</label>
+			<input type="text" size="20" id="prenom" name="prenom" />
+		</span><br />
+		<span id="mail">
+			<label for="email"> Votre email :</label>
+			<input type="email" size="50" id="email" name="email" />
+		</span>
+
+		<p>
+			Raison de votre prise de contact :
+			<select id="liste" name="liste1">
+				<!-- Liste deroulante avec 5 proposition -->
+				<option value="">.....</option>
+				<option value="pbjeux"> Probl&egrave;me sur le fonctionnement d'un jeu </option>
+				<option value="pbmedia"> Probl&egrave;me sur les images et/ou vid&eacute;o</option>
+				<option value="idee"> Idée de d&eacute;veloppement </option>
+				<option value="autre"> Autres </option>
+			</select>
+			<br />
+		</p>
+
+		<p> <input type="button" class="bouton" name="bt" onclick="test()" value="Ecrire un message"></p>								 <!-- bouton permettant de debloquer la partie inferieur (zone de texte / message) -->
+		<br />
+		<p class="contactfin">
+			<!-- Mise en place d'une zone de texte -->
+			<span class="boutonsub">
+				Votre message :
+				<input type="submit" class="submit" name="valide" value="Envoyer le message"><br />
+			</span>
+			<textarea name="texte" id="contacttxt" rows="8" cols="60" disabled="disabled"></textarea>
+			<span class="boutonrest"> <input type="submit" class="submit" name="valide" value="Envoyer le message"></span>							<!-- Mise en place d'un bouton qui simule l'envoie du message -->
+		</p>
+	</form>
+	<div id="logoo">
+		<!-- Crétion d'un logo simple pour le site à l'aide d'un canvas -->
+		Notre LOGO : &nbsp; &nbsp; &nbsp; &nbsp; <br />
+		<canvas id="logo" width="180" height="180">
+		</canvas>
+	</div>
+
+	<script type="text/javascript" src="../JS/contact.js"></script>
+</body>
+</html>

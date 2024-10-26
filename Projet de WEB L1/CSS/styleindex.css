@@ -1,0 +1,50 @@
+body {
+    font-size: 0.7cm;
+    color: #8B0000;
+    background-color: #808080;
+    text-align: center;
+}
+
+.imglogo{
+    margin-left:800px;
+    position:absolute;
+}
+
+
+h1 {
+    text-align: center;
+    text-decoration:underline;
+}
+
+h2 {
+    font-size: 0.5cm;
+    font-style: italic;
+}
+
+sommaire{
+    border:green solid 3px;
+    padding:0.5cm;
+    margin-bottom:0.5cm;
+
+}
+table {
+    border: ridge blue 8px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+}
+
+td:hover {
+    border: dotted red 4px;
+    padding: 0px;
+}
+
+td {
+    padding: 4px;
+}
+
+.fin {
+    font-size: 0.4cm;
+    color: black;
+    text-align: center;
+}

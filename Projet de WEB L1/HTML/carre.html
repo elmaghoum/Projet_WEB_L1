@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title> Carre </title>
+	<link rel="stylesheet" type="text/css" href="../css/stylecarre.css" />
+</head>
+<body>
+	<div id="previous">
+		<!-- Image cliquable de retour au sommaire -->
+		<a href="index.html" title="index">
+			<img src="../images/previous.png" class="" alt="" style="height:50px; width:50px;">
+		</a>
+		<h1> L'&eacute;nigme des carr&eacute;s </h1>
+	</div>
+	<hr />
+
+	<canvas id="canvas1" width="400" height="400">
+		<!-- Canvas de dessinant un carré de 400px de coté, puis qui sera completer par le JS-->
+	</canvas>
+	<form method="post" action="carre.html" enctype="text/plain" class="f1">
+		<fieldset>
+			<legend>Combien y a t-il de carr&eacute;(s) </legend>
+			<p>
+				<label for="reponse"> Votre reponse :</label>
+				<input type="tel" size="15" maxlength="2" id="reponse" name="reponse" />                                           <!-- Input texte pour ecrire sa reponse en chiffre -->
+			</p>
+			<p> <input type="button" class="boutoncarre" name="boutoncarre" onclick="validcarre()" value="Valider"></p>             <!-- Input bouton pour valider qui renvoie sur la fonction JS : validcarre() -->
+			<div id="soluce"></div>                                                                                                 <!-- Emplacement definie pour mettre une phrase de reponse en fonction de la valeur ecrite precedement, via le JS -->
+		</fieldset>
+	</form>
+	<br />
+	<div id="vid"></div>                                                                                                            <!-- Emplacement definie pour mettre une video via le JS -->
+	<script type="text/javascript" src="../JS/carre.js"></script>
+</body>
+</html>
